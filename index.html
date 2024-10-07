@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice_Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="player player--0 player--active">
+        <h2 class="name" id="name0">Player 1</h2>
+        <p class="score" id="score0">0</p>
+        <div class="current">
+          <p class="current-label">Current</p>
+          <p class="current-score" id="current0">0</p>
+        </div>
+      </section>
+      <section class="player player--1">
+        <h2 class="name" id="name1">Player 2</h2>
+        <p class="score" id="score1">0</p>
+        <div class="current">
+          <p class="current-label">Current</p>
+          <p class="current-score" id="current1">0</p>
+        </div>
+      </section>
+      <div class="timer">
+        <span id="minutes">10</span>:<span id="seconds">00</span>
+      </div>
+      <div id="result"></div>
+      <img
+        src="dice-5.jpg"
+        alt="Playing dice"
+        class="dice"
+        height="100px"
+        width="100px"
+      />
+      <button class="new">🔄 New Game</button>
+      <button class="roll">🎲 Roll Dice</button>
+      <button class="hold">📤 Hold</button>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

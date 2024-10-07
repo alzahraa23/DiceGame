@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(102, 6, 6);
+  height: 80vh;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+section {
+  display: flex;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  height: 450px;
+}
+.player--0 {
+  background-color: rgba(255, 255, 255, 0.39);
+  margin: 70px 100px 0 300px;
+}
+.player--1 {
+  background-color: rgba(255, 255, 255, 0.39);
+  margin: -450px 80px 0 650px;
+}
+.player--active {
+  background-color: rgb(182, 170, 155);
+}
+h2,
+p,
+div {
+  position: relative;
+  text-align: center;
+}
+h2 {
+  top: 10px;
+  left: 6rem;
+}
+div.current {
+  display: flex;
+  background-color: rgba(134, 11, 11, 0.39);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 130px;
+  height: 90px;
+  top: 300px;
+  font-size: 1em;
+  right: 3.5rem;
+}
+.current-score {
+  top: 30px;
+  right: 2rem;
+}
+.current-label {
+  bottom: 10px;
+  left: 1rem;
+}
+.score {
+  top: 50px;
+  font-size: 2em;
+}
+button,
+.timer {
+  position: absolute;
+  background-color: rgba(230, 219, 219, 0.39);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(250, 245, 245, 0.1);
+  right: 650px;
+}
+.new {
+  top: 100px;
+}
+.roll {
+  bottom: 250px;
+}
+.roll:disabled {
+  cursor: not-allowed;
+}
+.hold {
+  bottom: 200px;
+  right: 665px;
+}
+.dice {
+  position: absolute;
+  right: 650px;
+  top: 220px;
+}
+.timer {
+  top: 150px;
+  right: 670px;
+}
+
+#result {
+  font-size: 1.5em;
+  color: white;
+  margin-top: 5px;
+}
+.hidden {
+  display: none;
+}
